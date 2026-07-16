@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+tfplan*
+crash.log
+crash.*.log
+
+# Lambda package
+*.zip
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# OS / Editor
+.DS_Store
+.vscode/
