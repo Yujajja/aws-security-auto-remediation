@@ -1,0 +1,5 @@
+﻿*.md text eol=lf
+*.tf text eol=lf
+*.py text eol=lf
+*.example text eol=lf
+.gitignore text eol=lf
