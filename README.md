@@ -394,7 +394,7 @@ Config Test SG에 위험한 SSH 전체 공개 규칙을 추가했습니다.
 
 ```bash
 aws ec2 authorize-security-group-ingress \
-  --group-id <config-test-sg-id> \
+  --group-id CONFIG_TEST_SG_ID \
   --protocol tcp \
   --port 22 \
   --cidr 0.0.0.0/0
@@ -412,7 +412,7 @@ Remediation Test SG에 위험한 SSH 전체 공개 규칙을 추가했습니다.
 
 ```bash
 aws ec2 authorize-security-group-ingress \
-  --group-id <remediation-test-sg-id> \
+  --group-id REMEDIATION_TEST_SG_ID \
   --protocol tcp \
   --port 22 \
   --cidr 0.0.0.0/0
